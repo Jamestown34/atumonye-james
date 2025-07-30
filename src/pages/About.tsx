@@ -35,7 +35,7 @@ const About = () => {
           </p>
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfpDLExZBa4Ssw6hTM09-PszkikdtnXHwNBCtRFEMs8sUYZuw/viewform?usp=dialog"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdak1Vfy-xvWgpxl30InSwV4TT4FOh_3rYcmDnKHWSe8zmmRw/viewform?usp=header"
             target="_blank"
             rel="noopener noreferrer"
           >
