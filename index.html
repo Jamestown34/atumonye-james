@@ -24,10 +24,32 @@
     <meta name="twitter:title" content="Atumonye James" />
     <meta name="twitter:description" content="Advanced data insights services to drive strategic growth in shifting to digital world." />
     <meta name="twitter:image" content="/images/favicon.png" />
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-08KL91ZNKT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-08KL91ZNKT');
+    </script>
   </head>
 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Button click tracking -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('button').forEach(btn => {
+          btn.addEventListener('click', () => {
+            gtag('event', 'button_click', {
+              button_text: btn.innerText || btn.id || 'unknown'
+            });
+          });
+        });
+      });
+    </script>
   </body>
 </html>
