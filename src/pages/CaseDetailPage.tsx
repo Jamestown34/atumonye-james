@@ -208,15 +208,6 @@ Python (Pandas, scikit-learn, Streamlit), Matplotlib/Seaborn, Power BI, NLP (TF-
           >
             Back to Home
           </Link>
-
-          <a
-            href="https://just-projects-flax.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-blue-600 text-white px-6 py-3 rounded-md text-center font-semibold hover:bg-blue-700"
-          >
-            VIEW MORE COMPLETED PROJECTS
-          </a>
         </div>
       </div>
     </div>
